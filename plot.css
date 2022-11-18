@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,700&family=Sono&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body,html{
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  margin: 0;
+}
+
+nav{
+  background-color: red;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+ 
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px 80px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: moccasin;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+nav ul li:hover{
+  background-color: black;
+}
+header{
+  background-image: url(./max.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.plot{
+  color: white;
+  text-align: left;
+}
